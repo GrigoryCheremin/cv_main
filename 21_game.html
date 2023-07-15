@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black Jack</title>
+
+    <script src="Sourses/JS_21/blackjack.js"></script>
+    <link rel="shortcut icon" href="Sourses/Pictures/favicon.ico.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="game">
+        <h2>Соперник <span id="dealer-sum"></span></h2>
+        <div id="dealer-cards">
+            <img id="hidden" src="Sourses/Pictures/cards/BACK.png" alt="карта">
+        </div>
+
+        <h2>Вы <span id="your-sum"></span>
+        </h2>
+        <span id="message"></span>
+        <div id="your-cards"></div>
+
+        <br>
+        <button id="hit">Ещё</button>
+        <button id="stay">Хватит</button>
+        <p id="results"></p>
+        <button id="retry">Заново</button>
+        <div class="description">
+            <p>
+            <h2>Правила игры:</h2>
+            <p>Цель игры - набрать 21 очко или близкую к этому сумму.</p>
+            <p>Если игрок набирает сумму очков, превышающую 21, то его ставка проигрывает.</p>
+            <p>Если сумма очков на картах соперника больше, чем 21, то все ставки, оставшиеся в игре, выигрывают</p>
+            <p>Туз = 1. Валет, дама, король = 10 очков</p>
+            </p>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-main">
+            <div class="row">
+                <p>Created by Grigorii Cheremin</p>
+            </div>
+            <div class="pict-contact">
+                <a class="pic" href="http://t.me/Greenx_real" target="_blanc">
+                    <img class="pict" src="Static/Images/TG.png" alt="Telegram">
+                </a>
+                <a class="pic" href="https://wa.me/995591699384" target="_blanc">
+                    <img class="pict" src="Static/Images/WA.png" alt="WatsApp">
+                </a>
+                <a class="pic" href="https://github.com/GrigoryCheremin" target="_blanc">
+                    <img class="pict" src="Static/Images/GH.png" alt="Github">
+                </a>
+                <a class="pic" href="#" target="_blanc">
+                    <img class="pict" src="Static/Images/hh.png" alt="HeadHunter">
+                </a>
+                <a class="pic" href="https://www.linkedin.com/in/grigorii-cheremin-484153233/" target="_blanc">
+                    <img class="pict" src="Static/Images/linkedIn.png" alt="linkedIn">
+                </a>
+            </div>
+        </div>
+    </footer>
+    <link rel="stylesheet" href="Sourses/CSS_Styles/blackjack.css">
+</body>
+
+</html>

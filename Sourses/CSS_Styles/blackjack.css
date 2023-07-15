@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: #f5f5dc;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+.game {
+    margin: 0;
+    padding: 0;
+    box-shadow: 0 20px 15px -15px rgba(0, 0, 0, 0.52);
+    background-image: linear-gradient(to bottom, #f5f5dc, #f0f8ff);
+}
+
+.description {
+    padding-bottom: 50px;
+
+}
+
+#dealer-cards img {
+    height: 150px;
+    width: 100px;
+    margin: 1px;
+}
+
+#your-cards img {
+    height: 150px;
+    width: 100px;
+    margin: 1px;
+}
+
+button {
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: lightgrey;
+    border: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    box-shadow: 0 4px 15px 0px rgba(0, 0, 0, 0.52);
+}
+
+button:hover {
+    background-color: grey;
+    color: white;
+}
+
+#hit {
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+}
+
+#stay {
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+}
+
+#retry {
+    width: 100px;
+    height: 25px;
+    font-size: 14px;
+}
+
+.footer-main {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    width: 40%;
+    text-align: center;
+}
+
+.pict-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 59%;
+}
+
+.pict {
+    width: 40px;
+    margin-inline: 20px;
+    border-radius: 5px;
+}
+
+.pict:hover {
+    transform: scale(1.5);
+    transition: transform 0.5s;
+    box-shadow: 0 4px 15px 0px rgba(0, 0, 0, 0.52);
+    border-radius: 30px;
+}
+
+@media (max-width: 800px) {
+    body {
+        background: none;
+    }
+
+    .row {
+        display: none;
+    }
+
+    .pict {
+        margin-inline: 10px;
+    }
+}
