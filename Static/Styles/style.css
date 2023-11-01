@@ -99,8 +99,8 @@ h4 {
     flex-direction: column;
 }
 
-.testcloud,
-.yandex,
+.ITWPro,
+.G5Games,
 .solvery {
     display: flex;
     justify-content: center;
@@ -115,12 +115,12 @@ h4 {
     padding-right: 15px;
 }
 
-.testcloud:hover {
+.ITWPro:hover {
     transform: scale(1.01);
     transition: transform 0.3s;
 }
 
-.yandex:hover {
+.G5Games:hover {
     transform: scale(1.01);
     transition: transform 0.3s;
 }
@@ -137,8 +137,8 @@ h4 {
     padding-left: 15px;
 }
 
-.testcloud1,
-.yandex1,
+.ITWPro1,
+.G5Games1,
 .solvery1 {
     width: 59%;
 }
